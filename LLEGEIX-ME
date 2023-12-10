@@ -1,0 +1,71 @@
+# Projecte prjava02
+
+## Instruccions Executades
+
+### Apartat 1: Des de dins de la carpeta del projecte prjava02 del teu ordinador:
+a) Crea una branca de nom branca00. Trobaràs informació de com fer-ho al primer enllaç de la
+documentació, dins de la secció "Creating a new branch".
+
+- git branch branca00
+
+b) Accedeix a a la branca00. Trobaràs informació de com fer-ho al primer enllaç de la documentació,
+dins de la secció "Switching Branches".
+
+- git checkout branca00
+
+c) Comprova des de l'interpret d'ordres l'estat del projecte i a quina branca et trobes.
+
+- git status
+
+### Apartat 5: Torna a la branca main del projecte. Comprova l'estat del projecte. Mostra l'historial de la branca main.
+Quina diferència hi ha amb l'historial de la branca branca00?.
+
+- git checkout main
+
+- git status
+
+- git log main
+
+- git log main..branca00
+
+### Apartat 6: Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure l'última línia afegida?. Per què?
+
+- No, no pots veure l'última línia afegida perquè aquest canvi només es realitza a nivell local a la branca actual i no afecta les altres branques.
+
+### Apartat 7: Torna a la branca branca00. Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure
+l'última línia afegida?. Per què?.
+
+- git checkout branca00
+
+- Sí, pots veure l'última línia afegida perquè la línia s'ha afegit a la branca branca00 i està present només en aquesta branca.
+
+### Apartat 10: Torna a la branca main i realitza les següents accions:
+b) Fusiona (merge) la branca branca00 amb la branca master. Trobaràs informació a la
+documentació.
+
+- git checkout main
+
+- git merge branca00
+
+### Apartat 12:  Continuant dins de la branca main:
+a) Fes un push del dipòsit local al dipòsit remot.
+
+- git push origin main
+
+c) Comprova que només s'ha actualitzat la branca main únicament. Per què?.
+
+- Només la branca main s'actualitza perquè el push es va fer des de la branca main i només aquella branca es veu afectada.
+
+### Apartat 14: - Fes:
+a) Un push de branca01 del dipòsit local al dipòsit remot.
+
+- git push origin branca01
+
+c) A quants commits de distància (commit ahead) està de la branca main?
+
+- Està a 5 commits de distancia.
+
+
+
+
+
